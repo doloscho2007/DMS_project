@@ -1,0 +1,58 @@
+table.treetable caption {
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: .2em;
+}
+
+table.treetable span.file {
+	background-image:url("../connector_closed_middle.gif");
+  
+}
+
+table.treetable span.folder {
+  background-image:url("../connector_opened_middle.gif");
+}
+
+table.treetable tr.collapsed span.indenter a {
+ 
+  background-image:url("../connector_closed_middle.gif");
+}
+
+table.treetable tr.expanded span.indenter a {
+ 
+  background-image:url("../connector_opened_middle.gif");
+}
+
+table.treetable tr.branch {
+  background-color: #f9f9f9;
+}
+
+table.treetable tr.selected {
+  background-color: #5fbaf2;
+  color: #fff;
+}
+
+table.treetable tr span.indenter a {
+  outline: none; /* Expander shows outline after upgrading to 3.0 (#141) */
+}
+
+table.treetable tr.collapsed.selected span.indenter a {
+  background-image:url("../connector_closed_middle.gif");
+}
+
+table.treetable tr.expanded.selected span.indenter a {
+  background-image:url("../connector_opened_middle.gif");
+}
+
+table.treetable tr.accept {
+  background-color: #a3bce4;
+  color: #fff
+}
+
+table.treetable tr.collapsed.accept td span.indenter a {
+  background-image:url("../connector_closed_middle.gif");
+}
+
+table.treetable tr.expanded.accept td span.indenter a {
+ background-image:url("../connector_opened_middle.gif");
+}

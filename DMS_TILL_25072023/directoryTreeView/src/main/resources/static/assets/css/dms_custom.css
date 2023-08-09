@@ -1,0 +1,467 @@
+/* tr.normal td {
+color: black;
+background-color: white;
+} */
+tr.highlighted td {
+    color: white;
+    background-color: #5fbaf2;
+}
+
+html, body {
+    height: 100%;
+    background-color: #f0f0f0;
+    /* background-image: url("assets//bg4_1680x1050.jpg"); */
+
+}
+
+.nav-tabs:active{
+	padding-top: 7px;
+	/* background-color: transparent; */
+}
+
+.container ul.nav{
+	margin-top: 10px;
+	background-color: white !important;
+}
+
+
+
+#fileDetailsTr.container{
+	    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container.nav.nav-tabs{
+	background-color: white;
+	padding-top: 5px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+li.nav-item{
+	border: 0px  !important;
+}
+
+.container .nav-link{
+	    font-size: 14px;
+    font-family: corbel;
+    font-weight: 500;
+    color: #ffffff !important;
+    background-color: #84c1ed;
+    border: 2px solid #84c1ed;
+    border-bottom: 0px solid transparent;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 4px 0px 0px;
+    padding: 8px 25px 8px 25px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+	
+	#versions thead{
+		color:white;
+		/* font-size: 12px; */
+		font-family: corbel;
+	}
+	
+	#versionTable{
+		    min-width: 600px;
+    overflow-x: scroll;
+	}
+	
+	#versionTable th{
+		padding: 8px 10px;
+	}
+	
+/* custom scrollbar */
+				::-webkit-scrollbar {
+				  width: 20px;
+				}
+
+				::-webkit-scrollbar-track {
+				  background-color: transparent;
+				}
+
+				::-webkit-scrollbar-thumb {
+				  background-color: #d6dee1;
+				  border-radius: 20px;
+				  border: 6px solid transparent;
+				  background-clip: content-box;
+				}
+
+				::-webkit-scrollbar-thumb:hover {
+				  background-color: #a8bbbf;
+				}
+				
+.container .nav-link.active{
+	font-family: corbel;
+    color: #ffffff !important;
+    background-color: #157fcc;
+    border: 2px solid #005491;
+    border-bottom: 0px solid transparent;
+    margin-left: 8px;
+}
+
+#userGroupTable{
+	border: 1px solid #dee2e6;
+}
+
+#userGroupTable tr th{
+	border: 1px solid #dee2e6;
+	vertical-align: middle;
+    padding: 15px;
+}
+
+#userGroupTable #userGroupTableBody td{
+	padding: 0;
+	vertical-align:middle;
+    border-top: 1px solid #dee2e6;
+}
+
+#userGroupTable #userGroupTableBody #innerTableAccordian td{
+	padding: 0;
+    padding-left: 10px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+
+.accordian-body #innerTableAccordian .btn btn-default btn-xs{
+	background: none;
+}
+
+#userGroupTable #userGroupTableBody .accordian-body{
+	padding:5px;
+}
+
+
+#userGroupTable tr th {
+    border: 1px solid #dee2e6;
+    vertical-align: middle;
+    padding: 15px;
+    background: #343a40;
+    color: white;
+    text-align: center;
+}
+
+/* .accordian-body #innerTableAccordian{
+	margin:5px;
+} */
+
+#masterTable{
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 2px solid #d0d0d0;
+}
+
+#userDetailsTable tr:hover {
+    background-color: #b6e3ff;
+    color:#000000;
+}
+
+#userDetailsTable tr:focus {
+    background-color: #5fbaf2;
+    color:#000000;
+    box-shadow: 0 0 5px #5fbaf2;
+}
+
+/* folder Tree css properties start here */
+#treeTableDiv{
+    background-color: white;
+    color:black;
+    border-top: 2px solid #d0d0d0;
+    top:52px;
+    font-family: calibri;
+}
+
+.table.treetable.table td, .table th {
+    padding: 6px;
+}
+
+table.treetable tr.branch:hover{
+    background-color: #b6e3ff;
+    color:#000000;
+}
+
+table.treetable tr.branch.selected:hover{
+    background-color: #5fbaf2;
+    color:#212529;
+    box-shadow: 0 0 5px #5fbaf2;
+}
+
+table.treetable tr.branch.expanded{
+    background-color: white;
+}
+
+table.treetable tr.branch.expanded:hover{
+    background-color: #b6e3ff;
+}
+
+table.treetable tr.branch.collapsed{
+    background-color: white;
+    color:black;
+}
+
+table.treetable tr.branch.collapsed:hover{
+    background-color: #b6e3ff;
+}
+
+table.treetable tr.branch.selected.expanded{
+    background-color: #5fbaf2;
+}
+
+table.treetable tr.branch.selected.expanded:hover{
+    background-color: #5fbaf2;
+    color:#fff;
+    box-shadow: 0 0 5px #5fbaf2;
+}
+
+table.treetable tr.branch.selected.collapsed{
+    background-color: #5fbaf2;
+    color:#fff;
+}
+
+table.treetable tr.branch.selected.collapsed:hover{
+    background-color: #5fbaf2;
+    color:#fff;
+    box-shadow: 0 0 5px #5fbaf2;
+}
+
+table.treetable tr.leaf:hover{
+    background-color: #b6e3ff;
+    color:#000000;
+}
+
+table.treetable tr.leaf.collapsed.selected:hover{
+    background-color: #5fbaf2;
+    color:#fff;
+    box-shadow: 0 0 5px #5fbaf2;
+}
+
+/* folder Tree css properties End here */
+#documentDetails tr{
+    padding: 6px;
+    background: rgba(242,245,245,0.8);
+    color: #202124;
+}
+#documentDetails td{
+    padding: 6px;
+}
+
+/* #documentDetailsTr tr:hover {
+    background-color: #b6e3ff;
+    color:#000000;
+} */
+
+#documentDetailsTr{
+	border-bottom: 10px solid #dee2e6;
+}
+
+#documentDetailsTr tr:hover{
+    background-color: #b6e3ff;
+    color:#000000;
+}
+
+#documentDetailsTr tr:focus {
+    background-color: #5fbaf2;
+    color:#000000;
+    box-shadow: 0 0 5px #5fbaf2;
+}
+
+#documentDetails tr.highlight:hover{
+    background-color: #5fbaf2;
+    color:#fff;
+    box-shadow: 0 0 3px #5fbaf2;
+}
+
+#documentDetails tr.highlight {
+    background-color: #5fbaf2;
+    color:white;
+}
+
+.documentDetails tr:focus{
+    background-color: #5fbaf2;
+    color:#fff;
+}
+
+#documentDetails tr.innerTableRow{
+    background-color:transparent;
+    color: black;
+}
+
+#documentDetails tr.innerTableRow:hover{
+    background-color:transparent;
+    color: black;
+}
+
+
+.highlight tr.innerTableRow td{
+    color: white;
+}
+
+#fileTable tr{
+    height: 20px;/*
+				background-color: #2c343a; */
+    /* color:black; */
+}
+
+
+
+
+.checkboxSize{
+    width: 15px;
+    height: 15px;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    border-radius: 1px;
+}
+
+
+/* .documentDetails tr:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    z-index: 2;
+    }
+
+#fileTable tr:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    z-index: 2;
+    } */
+
+
+
+
+/*Folder Right Click Option CSS Start Here*/
+.pcls-context-menu {
+    border: solid 1px;
+}
+
+.pcls-context-menu li {
+    border-bottom: solid 1px;
+}
+
+.pcls-context-menu li:last-child {
+    border: none;
+}
+
+.pcls-context-menu li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #212529;
+}
+
+
+
+.pcls-context-menu ul, #context-menu-paste li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+/*Folder Right Click Option CSS End Here*/
+
+
+/*File Right Click Option CSS Start Here*/
+.cls-context-menu ul, #context-menu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.cls-context-menu {
+    border: solid 1px #CCC;
+}
+
+.cls-context-menu li {
+    border-bottom: solid 1px #CCC;
+}
+
+.cls-context-menu li:last-child {
+    border: none;
+}
+
+.cls-context-menu li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #212529;
+}
+
+.cls-context-menu li:hover {
+    background:#157fcc;
+    color: white;
+}
+
+.pcls-context-menu {
+    border: solid 1px #CCC;
+}
+
+.cls-context-menu li a:hover {
+    background:#157fcc;
+    color: white;
+}
+
+.pcls-context-menu li:hover {
+    background:#157fcc;
+    color: white;
+}
+
+.cls-context-menu, .pcls-context-menu {
+    position: absolute;
+    display: none;
+}
+
+/*File Right Click Option CSS End Here*/
+
+
+
+
+
+/* table.treetable tr.branch.selected.expanded:focus{
+    background-color: #5fbaf2;
+} */
+
+/* table.treetable tr.branch.collapsed td span.indenter{
+
+    color:black;
+}
+
+table.treetable tr.branch.selected.collapsed td span.indenter{
+
+    color:black;
+} */
+
+/*  #treeTableDiv {
+
+    scrollbar-width:thin;
+}
+ */
+
+
+/* tr.innerTableRow:hover{
+    background-color: #5fbaf2;
+} */
+
+/* #documentDetailsTr table.innerTable tr:hover {
+    background-color: red;
+    color:#000000;
+} */
+
+
